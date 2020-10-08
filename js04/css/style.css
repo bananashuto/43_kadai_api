@@ -1,0 +1,88 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+
+   
+}
+.allwrapper{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+}
+header{
+    text-align: center;
+    background-color: rgb(89, 96, 177);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.sec_1{
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.textContent{
+    margin-top: 30px;
+    width:80%; 
+    height:300px;
+}
+
+.sec_1 button{
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.baseButton{
+display: flex;
+justify-content: center;
+}
+
+.baseButton button{
+    margin: 0 5px;
+}
+
+.allmemo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#memory{
+    width: 215px;
+}
+
+.listWrapper{
+    padding: 30px 10px;
+    width: 80%;
+    margin: 60px auto;
+    background-color: rgb(255, 255, 255);  
+}
+
+table {
+   width: 1000px;
+}
+
+
+
+.listWrapper th {
+    background-color:rgb(240, 240, 240);
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+.listWrapper td {
+    width: 800px;
+    padding-left: 30px;
+    word-break: break-all;
+   
+}
+.listWrapper button {
+    width: 50px;
+    margin-right: 5px;
+
+}
+
+#memory{
+    background-color: rgb(89, 96, 177);
+    color: rgb(255, 255, 255);
+}
+

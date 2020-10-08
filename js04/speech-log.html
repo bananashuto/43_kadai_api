@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>ぎじろく</title>
+    </head>
+
+
+<body>
+    <div class="allwrapper">
+        <header>
+            <h1>音声議事録</h1>
+        </header>
+
+        <section class="sec_1">
+            <p class="textHead">スタートボタンを押すと、音声認識が始まります。<br>
+                認識されない時は、リロードボタンを押し、再度スタートボタンを押して下さい。
+            </p>
+
+            <button onclick="start();" >スタート</button>
+            <button id="reload" type="button">リロード</button><br>
+            <textarea id="result_text2" class="textContent"></textarea>
+        </section>
+
+
+        <!-- ーーーーーーーー 下ボタン ーーーーーーー -->
+        <div class="baseButton">
+            <button id="save" onclick="">記録する</button>
+            <button id="clear">クリア</button>
+            <button id="empty">全て削除</button>
+        </div>
+        <div class="allmemo">
+            <button id="memory">議事録を全て保存する</button>
+        </div>
+
+        <!-- ーーーーーーーー 保存したもの ーーーーーーー -->   
+        <div class="listWrapper">
+            <table id="list">
+        </div>
+        
+    </div>
+
+
+<script src="js/script_speech.js"></script>
+
+</body></html>
